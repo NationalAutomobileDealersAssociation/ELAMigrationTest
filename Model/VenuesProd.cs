@@ -9,6 +9,12 @@ namespace ELAMigrationTest.Model
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Location { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Zip { get; set; }
+        public string Notes { get; set; }
+        public string HotelContacts { get; set; }
 
         public DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }
